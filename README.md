@@ -11,12 +11,8 @@
 
 ### How to use
 
->  # wget -qO- get.docker.com | sh
+>  wget -qO- get.docker.com | sh
 
->  # (deprecated) docker run -d \--net=host \--restart=always alicek106/ble-nurse-project:0.0 \
-
->  (deprecated) python testblescan.py 163.180.117.229:30000 PY01
-
->  # docker run -d --net=host --restart=always alicek106/ble-nurse-project:0.2 \
-
->  python alicek106-20171007.py 163.180.117.195 PY01
+---
+>  docker run -d --net=host --restart=always alicek106/ble-nurse-project:0.3 \
+python alicek106-20180304.py BROKER_IP PY01 15
