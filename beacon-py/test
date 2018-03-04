@@ -1,0 +1,181 @@
+    1  ls
+    2  sudo raspi-config
+    3  sudo reboot -h now
+    4  sudo raspi-config
+    5  sudo shutdown -h now
+    6  sudo raspi-config
+    7  123
+    8  1234
+    9  sudo vi a
+   10  ls
+   11  sudo vi a
+   12  sudo apt-get update
+   13  sudo /etc/network/interfaces
+   14  ls /etc/network
+   15  sudo vi /etc/network/interfaces
+   16  sudo raspi-config
+   17  sudo vi /etc/network/interfaces
+   18  sudo /etc/init.d/networking restart
+   19  sudo ping google.com
+   20  ping google.com
+   21  ls
+   22  sudo apt-get update
+   23  sudo startx
+   24  sudo reboot -h now
+   25  ls
+   26  ping google.com
+   27  sudo vi /etc/network/interfaces
+   28  startx
+   29  ls
+   30  ping google.com
+   31  sudo reboot -h now
+   32  ping google.com
+   33  sudo apt-get update
+   34  sudo vi /etc/network/interfaces
+   35  sudo /etc/init.d/networking restart
+   36  ping google.com
+   37  sudo reboot -h now
+   38  ping google.com
+   39  sudo apt-get update
+   40  sudo apt-get upgrade -y
+   41  sudo apt-get install libusb-dev
+   42  sudo apt-get install libdbus-1-dev
+   43  sudo apt-get install libglib2.0-dev --fix-missing
+   44  sudo apt-get install libudev-dev
+   45  sudo apt-get install libical-dev
+   46  sudo apt-get install libreadline-dev
+   47  sudo apt-get install libdbus-glib-1-dev
+   48  sudo mkdir bluez
+   49  ls
+   50  cd bluez/
+   51  sudo wget www.kernel.org/publinux/bluetooth/bluez-5.19.tar.gz
+   52  ip addr
+   53  sudo gunzip bluez-5.19.tar.gz
+   54  sudo tar xvf bluez-5.19.tar 
+   55  ls
+   56  cd bluez-5.19/
+   57  sudo ./configure --disable-systemd
+   58  sudo make
+   59  sudo make install
+   60  sudo apt-get install python-bluez
+   61  sudo reboot -h now
+   62  hciconfig
+   63  ls
+   64  sudo apt-get install git
+   65  sudo git clone https://github.com/switchdoclabs/iBeacon-Scanner-
+   66  ls
+   67  sudo chown pi iBeacon-Scanner-/
+   68  suco chgrp pi iBeacon-Scanner-/
+   69  sudo chgrp pi iBeacon-Scanner-/
+   70  cd iBeacon-Scanner-/
+   71  ls
+   72  sudo python testblescan.py
+   73  ls
+   74  sudo python blescan.py
+   75  sudo python testblescan.py
+   76  sudo vi testblescan.py
+   77  sudo python testblescan.py
+   78  ls
+   79  sudo vi testblescan.py
+   80  sudo python testblescan.py
+   81  ls
+   82  sudo vi testblescan.py
+   83  sudo python testblescan.py
+   84  ls
+   85  sudo vi testblescan.py 
+   86  sudo python testblescan.py
+   87  sudo vi testblescan.py 
+   88  sudo python testblescan.py
+   89  sudo vi testblescan.py 
+   90  sudo python testblescan.py
+   91  sudo vi testblescan.py 
+   92  sudo python testblescan.py
+   93  sudo vi testblescan.py 
+   94  sudo python testblescan.py
+   95  sudo vi testblescan.py 
+   96  sudo python testblescan.py
+   97  sudo vi testblescan.py 
+   98  sudo python testblescan.py
+   99  sudo vi testblescan.py 
+  100  sudo python testblescan.py
+  101  sudo vi testblescan.py 
+  102  sudo python testblescan.py
+  103  sudo vi testblescan.py 
+  104  sudo python testblescan.py
+  105  sudo vi testblescan.py 
+  106  sudo python testblescan.py
+  107  sudo vi testblescan.py 
+  108  sudo python testblescan.py
+  109  sudo vi testblescan.py 
+  110  sudo python testblescan.py
+  111  sudo vi testblescan.py 
+  112  sudo python testblescan.py
+  113  sudo vi testblescan.py 
+  114  sudo python testblescan.py
+  115  sudo vi testblescan.py 
+  116  sudo python testblescan.py
+  117  sudo vi testblescan.py 
+  118  sudo python testblescan.py
+  119  ls
+  120  pip search pymongo
+  121  pip
+  122  python -version
+  123  python --version
+  124  sudo apt-get install python-pip
+  125  pip search pymongo
+  126  pip install pymongo
+  127  ls
+  128  sudo vi testblescan.py 
+  129  ls
+  130  sudo python testblescan.py 
+  131  ls
+  132  sudo pip install pymongo
+  133  ls
+  134  sudo python testblescan.py 
+  135  sudo vi testblescan.py 
+  136  sudo python testblescan.py 
+  137  sudo vi testblescan.py 
+  138  sudo python testblescan.py 
+  139  sudo vi testblescan.py 
+  140  sudo python testblescan.py 
+  141  sudo vi testblescan.py 
+  142  sudo python testblescan.py 
+  143  ls
+  144  sudo python testblescan.py 
+  145  sudo vi testblescan.py 
+  146  sudo python testblescan.py 
+  147  sudo vi testblescan.py 
+  148  sudo python testblescan.py 
+  149  sudo vi testblescan.py 
+  150  sudo python testblescan.py 
+  151  sudo vi testblescan.py 
+  152  sudo python testblescan.py 
+  153  sudo vi testblescan.py 
+  154  sudo python testblescan.py 
+  155  sudo vi testblescan.py 
+  156  sudo apt-get install ntpdate
+  157  date
+  158  sudo ntpdate -u 3.kr.pool.ntp.org
+  159  date
+  160  sudo raspi-config
+  161  date
+  162  ls
+  163  sudo python testblescan.py 
+  164  ls
+  165  sudo vi testblescan.py 
+  166  sudo python testblescan.py asdf
+  167  sudo vi testblescan.py 
+  168  sudo python testblescan.py 163.180.117.229:30000
+  169  sudo vi testblescan.py 
+  170  sudo python testblescan.py 163.180.117.229:30000
+  171  sudo vi testblescan.py 
+  172  sudo python testblescan.py 163.180.117.229:30000
+  173  sudo vi testblescan.py 
+  174  sudo python testblescan.py 163.180.117.229:30000
+  175  sudo vi testblescan.py 
+  176  sudo python testblescan.py 163.180.117.229:30000
+  177  sudo vi testblescan.py 
+  178  sudo python testblescan.py 163.180.117.229:30000 PY01
+  179  
+  180  history
+  181  history >> test
